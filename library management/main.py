@@ -43,10 +43,13 @@ class Book:
             self.move = input("enter here: ")
             if self.move == "1":
                 self.create_account()
+                self.dashboard()
             elif self.move == "2":
                 self.login()
+                self.dashboard()
             elif self.move == "3":
                 self.password_reset()
+                self.dashboard()
             else:
                 print("INVALID INPUT")
 
@@ -199,13 +202,13 @@ class Book:
 
 
 m_1 = Book()
-# m_1.fresh_ui()
+m_1.fresh_ui()
 # m_1.dashboard()
 # m_1.password_reset()
 # m_1.create_account()
 # m_1.login()
 # m_1.login_verification()
-m_1.get_my_book()
+# m_1.get_my_book()
 # m_1.menu()
 # m_1.show_all_books()
 
