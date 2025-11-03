@@ -1,11 +1,25 @@
 import mysql.connector
 from library_file import *
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from .env file
+load_dotenv()
+
+DB_HOST = os.getenv("DB_HOST")
+DB_USER = os.getenv("DB_USER")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
+DB_NAME = os.getenv("DB_NAME")
+
 mydb = mysql.connector.connect(
-    host = 'localhost',
-    user = 'root',
-    password = '' ,
-    database = 'LIBRARY_original'
+    host=DB_HOST,
+    user=DB_USER,
+    password=DB_PASSWORD,
+    database=DB_NAME
 )
+
+my_cursor = mydb.cursor()
+
 
 #query = input('Enter your desired book')
 my_cursor = mydb.cursor()
