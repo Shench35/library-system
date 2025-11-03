@@ -199,13 +199,13 @@ class Book:
 
 
 m_1 = Book()
-# m_1.fresh_ui()
+m_1.fresh_ui()
 # m_1.dashboard()
 # m_1.password_reset()
 # m_1.create_account()
 # m_1.login()
 # m_1.login_verification()
-m_1.get_my_book()
+# m_1.get_my_book()
 # m_1.menu()
 # m_1.show_all_books()
 
