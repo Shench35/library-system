@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Harry Potter and the Order of the Phoenix",
+    "author": "J. K. Rowling",
+    "year": 2003,
+    "edition_count": 226,
+    "ebook_access": "borrowable",
+    "cover_url": "https://covers.openlibrary.org/b/id/10523466-L.jpg"
+  },
+  {
+    "title": "Harry Potter and the Philosopher’s Stone",
+    "author": "J. K. Rowling",
+    "year": 1997,
+    "edition_count": 357,
+    "ebook_access": "borrowable",
+    "cover_url": "https://covers.openlibrary.org/b/id/10521270-L.jpg"
+  },
+  {
+    "title": "Harry Potter and the Deathly Hallows",
+    "author": "J. K. Rowling",
+    "year": 2007,
+    "edition_count": 126,
+    "ebook_access": "printdisabled",
+    "cover_url": "https://covers.openlibrary.org/b/id/10110415-L.jpg"
+  },
+  {
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "author": "J. K. Rowling",
+    "year": 1999,
+    "edition_count": 262,
+    "ebook_access": "borrowable",
+    "cover_url": "https://covers.openlibrary.org/b/id/10580435-L.jpg"
+  },
+  {
+    "title": "Harry Potter and the Chamber of Secrets",
+    "author": "J. K. Rowling",
+    "year": 1998,
+    "edition_count": 276,
+    "ebook_access": "printdisabled",
+    "cover_url": "https://covers.openlibrary.org/b/id/8392798-L.jpg"
+  },
+  {
+    "title": "Harry Potter and the Half-Blood Prince",
+    "author": "J. K. Rowling, Mary GrandPré",
+    "year": 2005,
+    "edition_count": 151,
+    "ebook_access": "borrowable",
+    "cover_url": "https://covers.openlibrary.org/b/id/10716273-L.jpg"
+  },
+  {
+    "title": "Harry Potter and the Goblet of Fire",
+    "author": "J. K. Rowling, Jim Kay",
+    "year": 1993,
+    "edition_count": 231,
+    "ebook_access": "borrowable",
+    "cover_url": "https://covers.openlibrary.org/b/id/12059372-L.jpg"
+  },
+  {
+    "title": "Harry Potter",
+    "author": "Warner Bros. Entertainment Inc",
+    "year": 2007,
+    "edition_count": 1,
+    "ebook_access": "borrowable",
+    "cover_url": "https://covers.openlibrary.org/b/id/10195373-L.jpg"
+  },
+  {
+    "title": "Harry Potter (series) 1–7",
+    "author": "J. K. Rowling",
+    "year": 1999,
+    "edition_count": 16,
+    "ebook_access": "no_ebook",
+    "cover_url": "https://covers.openlibrary.org/b/id/8457523-L.jpg"
+  },
+  {
+    "title": "Harry Potter",
+    "author": "J. K. Rowling",
+    "year": 2001,
+    "edition_count": 2,
+    "eboo
+
