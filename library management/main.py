@@ -144,6 +144,7 @@ class Book:
             self.customer_id = stored_data[0][1]
             if not stored_data:
                 print("❌ Email not found. Please create an account.")
+                self.fresh_ui()
         return self.login_authentication()
 
     def password_reset(self):
