@@ -1,4 +1,4 @@
-from mq_sql_library import *  # your MySQL setup (mydb, my_cursor, sqlformula)
+from database_schemas import *  # your MySQL setup (mydb, my_cursor, sqlformula)
 from library_file import get_book  # function that fetches book info
 import bcrypt
 from tabulate import tabulate
