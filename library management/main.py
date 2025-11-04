@@ -52,6 +52,7 @@ class Book:
                 self.dashboard()
             else:
                 print("INVALID INPUT")
+                self.dashboard()
 
     def dashboard(self):
         data = [
