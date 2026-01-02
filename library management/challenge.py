@@ -11,3 +11,5 @@ def capitalize(words):
             result = new_letter
             print(result , end="")
 capitalize(words)
+
+print("just a challenge not a part of this project")
