@@ -103,9 +103,9 @@ class Book:
         self.first_name = input('ENTER YOUR FIRST NAME: ')
         self.last_name = input('ENTER YOUR LAST NAME: ')
         self.phone_no = input('ENTER YOUR PHONE NUMBER: ')
-        self.user = input('ENTER YOUR EMAIL HERE : ')
+        self.user = input('ENTER YOUR EMAIL HERE: ')
         if re.match(pattern,self.user) is not None:
-            self.passw = input('ENTER YOUR PASSWORD HERE : ')
+            self.passw = input('ENTER YOUR PASSWORD HERE: ')
             if len(self.passw) <= 8 :
                 print("password have to be greater than or equal to 8 characters")
             else:
@@ -190,7 +190,7 @@ class Book:
         print('Navigation panel : \n'
               'ENTER 1 TO CREATE AN ACCOUNT \n'
               'ENTER 2 TO LOGIN IN \n')
-        temp = input('ENTER YOUR ANSWER HERE : ')
+        temp = input('ENTER YOUR ANSWER HERE: ')
         if temp == '1' :
             print('THANKS FOR CHOOSING USE \n'
               'ENTER YOUR DETAILS HERE 🔽')
